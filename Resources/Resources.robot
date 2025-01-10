@@ -5,4 +5,5 @@ Documentation   File to store resources and constants
 ${START_URL} =   http://uitestingplayground.com/
 ${BROWSER} =     chrome
 ${TXT_DATA_PATH} =    Resources/Data/users.txt
-&{CREDS}    email=email    password=password
+${email}    email=email
+${password}    password=password

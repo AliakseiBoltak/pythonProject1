@@ -9,4 +9,4 @@ ${UI_TEST_AUTOMATION_PLAYGROUND_LINK} =    xpath=//a[text()='ui-test-automation-
 Is user loggen in
     run keyword and continue on failure    element should be visible   code-tab
     run keyword and continue on failure    element should be visible   ${UI_TEST_AUTOMATION_PLAYGROUND_LINK}
-    page should contain         branches
+    page should contain         Branches
